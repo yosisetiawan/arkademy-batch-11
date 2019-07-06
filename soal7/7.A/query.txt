@@ -1,0 +1,1 @@
+SELECT nama.name,hobby.name AS hobby,category.name AS category FROM nama INNER JOIN hobby ON nama.id_hobby=hobby.id INNER JOIN category ON nama.id_category=category.id
